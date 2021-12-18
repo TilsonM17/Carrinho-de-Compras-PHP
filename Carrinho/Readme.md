@@ -2,7 +2,7 @@
 
 **Nota**: Da pasta Dumps tem a estrutura da base de dados
 
-Usei o ![sfgvdfgv]("")
+Usei o ![Rotas MVC comquery String]("")
 
 
 #### O Resto é conversa ;)
