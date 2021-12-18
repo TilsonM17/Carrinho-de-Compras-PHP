@@ -1,0 +1,75 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 20px 30px auto 30px;
+    padding: 0;
+}
+fieldset{
+    border: 1px solid rgb(170, 170, 170);
+    position:relative;
+}
+
+button{
+    padding: 6px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    font: 15pt;
+}
+button:hover{
+    background-color: azure;
+    color: blue;
+    transition: 0.5s;
+}
+fieldset legend{
+    font-size: 16pt;
+    text-align: center; 
+}
+
+fieldset .col-6{
+    padding: 4px;
+    flex: 0 0 auto;
+    width: 50%;
+    position:relative;
+    margin-left: 0px;
+    text-align: center;
+}
+fieldset .col-6 .title{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 20pt;
+     
+     color: rgb(123, 131, 131);
+}
+fieldset .col-6 .image{
+    margin: auto;
+    padding: 3px;
+}
+fieldset .col-6 .image img{
+    width: 40%;
+    height: 40%;
+    
+}
+fieldset .col-6 .preco p{
+     color: darkslategrey;
+     text-transform: capitalize;
+     font-family: 'Times New Roman', Times, serif;
+     font: 16pt;
+     margin: 2px;
+}
+
+.container .col-12{
+    font-size: 19pt;
+    text-align: center;
+}
+
+table{
+    height: 80%;
+    width: 80%;
+}
+table tbody{
+    padding: 12px;
+}
